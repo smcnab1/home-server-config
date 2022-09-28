@@ -1,5 +1,3 @@
-###> Josee9988/project-template ###
-
 ##### Folders #####
 build/
 dist/
@@ -22,4 +20,3 @@ ignore.*
 .env.test
 *.pem
 
-###< Josee9988/project-template ###
