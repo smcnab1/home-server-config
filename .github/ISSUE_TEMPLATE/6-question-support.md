@@ -1,15 +1,15 @@
 ---
-name: "❓ Question or Support Request"
-about: "Questions and requests for support."
-title: ""
-labels: "Type: Question"
-assignees: Josee9988
+name: "❓ Question/Support Request"
+about: Questions and requests for support.
+title: "[Q] "
+labels: "❓Type: Question"
+assignees: smcnab1
 
 ---
 
-# **❓ Question or Support Request**
+## **❓ Question or Support Request**
 
-## **Describe your question or ask for support.**
+**Describe your question or ask for support**
 <!-- A clear and concise description of what your doubt is. -->
 
 *

@@ -1,29 +1,27 @@
 ---
-name: "🐞 Bug Report"
-about: "Report an issue to help the project improve."
-title: "[Bug] "
-labels: "Type: Bug"
-assignees: Josee9988
+name: "\U0001F41BBug Report"
+about: Create a report to help fix current bugs found
+title: "[BUG] "
+labels: "\U0001F41BType: Bug"
+assignees: smcnab1
+
+---
+=======
+labels: "\U0001F3F7️ Needs Triage, \U0001F41BType: Bug"
+assignees: smcnab1
 
 ---
 
-# **🐞 Bug Report**
+## **🐛Bug Report**
 
-## **Describe the bug**
+**Describe the bug**
 <!-- A clear and concise description of what the bug is. -->
 
 *
 
 ---
 
-### **Is this a regression?**
-<!-- Did this behaviour used to work in the previous version? -->
-<!-- Yes, the previous version in which this bug was not present was: ... -->
-
----
-
-### **To Reproduce**
-
+**To Reproduce**
 <!-- Steps to reproduce the error:
 (e.g.:)
 1. Use x argument / navigate to
@@ -33,38 +31,42 @@ assignees: Josee9988
 
 <!-- Write the steps here (add or remove as many steps as needed)-->
 
-1.
-2.
-3.
+1. 
+2. 
+3. 
 4.
 
 ---
 
-### **Expected behaviour**
+**Expected behavior**
 <!-- A clear and concise description of what you expected to happen. -->
 
 *
 
 ---
 
-### **Media prove**
+**Screenshots**
 <!-- If applicable, add screenshots or videos to help explain your problem. -->
 
 ---
 
-### **Your environment**
-
+**Desktop (please complete the following information):**
 <!-- use all the applicable bulleted list element for this specific issue,
 and remove all the bulleted list elements that are not relevant for this issue. -->
 
-* OS: <!--[e.g. Ubuntu 5.4.0-26-generic x86_64 / Windows 1904 ...]-->
-* Node version:
-* Npm version:
-* Browser name and version:
+ - OS: 
+ - Browser 
+ - Version 
+
+**Smartphone (please complete the following information):**
+ - Device:
+ - OS:
+ - Browser 
+ - Version 
 
 ---
 
-### **Additional context**
+**Additional context**
 <!-- Add any other context or additional information about the problem here.-->
 
 *

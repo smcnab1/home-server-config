@@ -1,36 +1,36 @@
 ---
-name: "🚀🆕 Feature Request"
-about: "Suggest an idea or possible new feature for this project."
-title: ""
-labels: "Type: Feature"
-assignees: Josee9988
+name: "\U0001F680 Enhancement Request"
+about: Suggest an enhancement for this project. Improve an existing feature
+title: "[ENH] "
+labels: "☀️Type: Enhancement"
+assignees: smcnab1
 
 ---
 
-# **🚀 Feature Request**
+## **🚀 Enhancement Request**
 
-## **Is your feature request related to a problem? Please describe.**
+**Is your enhancement request related to a problem? Please describe.**
 <!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
 
 *
 
 ---
 
-## **Describe the solution you'd like**
+**Describe the solution you'd like**
 <!-- A clear and concise description of what you want to happen. -->
 
 *
 
 ---
 
-## **Describe alternatives you've considered**
+**Describe alternatives you've considered**
 <!-- A clear and concise description of any alternative solutions or features you've considered. -->
 
 *
 
 ---
 
-### **Additional context**
+**Additional context**
 <!-- Add any other context or additional information about the problem here.-->
 
 *

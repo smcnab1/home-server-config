@@ -1,9 +1,9 @@
 ---
 name: "⚠️ Security Report"
-about: "Report an issue to help the project improve."
-title: ""
-labels: "Type: Security"
-assignees: Josee9988
+about: Report an issue to help the project improve.
+title: "[SR] "
+labels: "\U0001F30BPriority: Critical, \U0001F41BType: Bug"
+assignees: smcnab1
 
 ---
 
@@ -25,7 +25,7 @@ certain personal information or involves personal identifiable data, or you beli
 that the data that you might leak by exposing the way on how to attack the project
 could be considered as a data leak or could violate the privacy of any kind of
 data or sensible data, please do not post it here and directly email the developer:
-(jgracia9988@gmail.com). You should post the issue with the least amount of 
+(sammcnab.email@gmail.com). You should post the issue with the least amount of 
 sensible or private data as possible to help us manage the security issue, and
 with the extra data sent from your email to the developer (if any), we will deeply
 analyze and try to fix it as fast as possible.
@@ -37,23 +37,22 @@ The data that must NOT be posted here:
 
 * Legal and/or full names
 * Names or usernames combined with other identifiers like phone numbers or email addresses
-* Health or financial information (including insurance information, social security numbers, etc.)
+* Health or financial information (including insurance information, national insurance numbers, etc.)
 * Information about political or religious affiliations
 * Information about race, ethnicity, sexual orientation, gender, or other identifying information that could be used for discriminatory purposes
 
 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->
 
-# **⚠️ Security Report**
+## **⚠️ Security Report**
 
-## **Describe the security issue**
+**Describe the security issue**
 <!-- A clear and concise description of what the bug is. -->
 
 *
 
 ---
 
-### **To Reproduce**
-
+**To Reproduce**
 <!-- Steps to reproduce the error:
 (e.g.:)
 1. Use x argument / navigate to
@@ -62,39 +61,37 @@ The data that must NOT be posted here:
 4. See error -->
 
 <!-- Write the steps here (add or remove as many steps as needed)-->
+1. 
+2. 
+3. 
+4. 
 
-1.
-2.
-3.
-4.
-
----
-
-### **Expected behaviour**
+**Expected behaviour**
 <!-- A clear and concise description of what you expected to happen. -->
 
 *
 
 ---
 
-### **Media prove**
+**Screenshots**
 <!-- If applicable, add screenshots or videos to help explain your problem. -->
 
 ---
 
-### **Your environment**
-
+**Desktop (please complete the following information):**
 <!-- use all the applicable bulleted list element for this specific issue,
 and remove all the bulleted list elements that are not relevant for this issue. -->
+ - OS: 
+ - Browser:
+ - Version:
 
-* OS: <!--[e.g. Ubuntu 5.4.0-26-generic x86_64 / Windows 1904 ...]-->
-* Node version:
-* Npm version:
-* Browser name and version:
+**Smartphone (please complete the following information):**
+ - Device: 
+ - OS: 
+ - Browser:
+ - Version:
 
----
-
-### **Additional context**
+**Additional context**
 <!-- Add any other context or additional information about the problem here.-->
 
 *
