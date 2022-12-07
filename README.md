@@ -10,10 +10,10 @@
 
 <!-- PROJECT HEADING -->
 <div align="center">
-<a href="https://github.com/smcnab1/op-sally-nas">
+<a href="https://github.com/smcnab1/op-exclamation-mark">
 <img src="https://i.imgur.com/5EcgtP9.png" alt="Logo" width="150" height="150"></a>
 
-## **Op Sally NAS**
+## **Op Exclamation Mark**
 
 #### Be sure to ⭐ my configuration repo so you can keep up to date on any daily progress!
 
@@ -25,7 +25,7 @@
 
 ## About The Project
 
-This is my **first** time creating or using a NAS/Home Server. I began with a Raspberry Pi 4B and a **very** old HDD, playing with <a href="https://www.openmediavault.org/">Open Media Vault</a> but got bitten by the NAS bug and have created a full media server for the house.
+This is my **first** time creating or using a NAS/Home Server. I began with a Raspberry Pi 4B and a **very** old HDD, playing with <a href="https://www.openmediavault.org/">Open Media Vault</a> but got bitten by the NAS bug and have created a full home server/lab for the house.
 
 This repo will be updated regularly and I am keen to make it an open & learning venture. Looking for feature suggestions and advice to increase the **wife-approval level**😎.
 
@@ -34,16 +34,16 @@ This repo will be updated regularly and I am keen to make it an open & learning 
 ## Contents
 
 <div align="center">
-<a href="https://github.com/smcnab1/op-sally-nas/issues/new?assignees=smcnab1&labels=Priority%3A+High%2C+Type%3A+Bug&template=bug_report.md&title=%5BBUG%5D">
+<a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+High%2C+Type%3A+Bug&template=bug_report.md&title=%5BBUG%5D">
 
 **Report Bug**
 </a>
 **·**
-<a href="https://github.com/smcnab1/op-question-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">
+<a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">
 **Request Feature**
 </a>
 **·**
-<a href="https://github.com/smcnab1/op-question-mark/issues/new?assignees=smcnab1&labels=&template=to-do-list.md&title=%5BTDL%5D">
+<a href="https://github.com/smcnab1/oop-exclamation-mark/issues/new?assignees=smcnab1&labels=&template=to-do-list.md&title=%5BTDL%5D">
 **ToDo List**
 </a>
 
@@ -68,7 +68,7 @@ This repo will be updated regularly and I am keen to make it an open & learning 
 
 ## Hardware _(as at Sept 22)_
 
-This is a list of the hardware I **currently** use as part of my Home NAS setup. Any suggestions drop them as a <a href="https://github.com/smcnab1/op-sally-nas/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">feature request.</a>
+This is a list of the hardware I **currently** use as part of my Home NAS setup. Any suggestions drop them as a <a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">feature request.</a>
 <br />
 
 <!-- start-table -->
@@ -126,7 +126,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See <a href="https://github.com/smcnab1/op-question-mark/blob/master/LICENSE.md">`LICENSE.md`</a> for more information.
+Distributed under the MIT License. See <a href="https://github.com/smcnab1/op-exclamation-mark/blob/master/LICENSE.md">`LICENSE.md`</a> for more information.
 
 <!-- CONTACT -->
 <a name="contact"></a>
@@ -136,32 +136,26 @@ Distributed under the MIT License. See <a href="https://github.com/smcnab1/op-qu
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][git-badge]][git-url]
 [![Kofi][kofi-badge]][kofi-url]
-[![Signal][signal-badge]][signal-url]
-[![Telegram][telegram-badge]][telegram-url]
 <br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/smcnab1/op-sally-nas.svg?style=for-the-badge
-[contributors-url]: https://github.com/smcnab1/op-sally-nas/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/smcnab1/op-sally-nas.svg?style=for-the-badge
-[forks-url]: https://github.com/smcnab1/op-sally-nas/network/members
-[stars-shield]: https://img.shields.io/github/stars/smcnab1/op-sally-nas.svg?style=for-the-badge
-[stars-url]: https://github.com/smcnab1/op-sally-nas/stargazers
-[issues-shield]: https://img.shields.io/github/issues/smcnab1/op-sally-nas.svg?style=for-the-badge
-[issues-url]: https://github.com/smcnab1/op-sally-nas/issues
-[license-shield]: https://img.shields.io/github/license/smcnab1/op-sally-nas.svg?style=for-the-badge
-[license-url]: https://github.com/smcnab1/op-sally-nas/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/smcnab1/op-exclamation-mark.svg?style=for-the-badge
+[contributors-url]: https://github.com/smcnab1/op-exclamation-mark/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/smcnab1/op-exclamation-mark.svg?style=for-the-badge
+[forks-url]: https://github.com/smcnab1/op-exclamation-mark/network/members
+[stars-shield]: https://img.shields.io/github/stars/smcnab1/op-exclamation-mark.svg?style=for-the-badge
+[stars-url]: https://github.com/smcnab1/op-exclamation-mark/stargazers
+[issues-shield]: https://img.shields.io/github/issues/smcnab1/op-exclamation-mark.svg?style=for-the-badge
+[issues-url]: https://github.com/smcnab1/op-exclamation-mark/issues
+[license-shield]: https://img.shields.io/github/license/smcnab1/op-exclamation-mark.svg?style=for-the-badge
+[license-url]: https://github.com/smcnab1/op-exclamation-mark/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sammcnab/
 [email-badge]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
-[email-url]: mailto:sammcnab.email@gmail.com
-[signal-badge]: https://img.shields.io/badge/Signal-%23039BE5.svg?&style=for-the-badge&logo=Signal&logoColor=white
-[signal-url]: https://signal.me/#p/+447513595678
-[telegram-badge]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
-[telegram-url]: https://t.me/sam_mcnab
+[email-url]: mailto:shacodinggit@gmail.com
 [git-badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [git-url]: https://github.com/smcnab1
 [kofi-badge]: https://ko-fi.com/img/githubbutton_sm.svg
