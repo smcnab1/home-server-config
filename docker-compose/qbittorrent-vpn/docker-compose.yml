@@ -1,0 +1,34 @@
+version: '3.3'
+services:
+  qbittorrent-openvpn:
+    container_name: qbittorrent-openvpn
+    image: guillaumedsde/alpine-qbittorrent-openvpn:latest
+    environment:
+      - CREATE_TUN_DEVICE=true
+      - OPENVPN_PROVIDER=PIA
+      - OPENVPN_CONFIG=UK London
+      - OPENVPN_USERNAME=p0628314
+      - OPENVPN_PASSWORD=Sam,McNab1.1
+      - WEBPROXY_ENABLED=true
+      - WEBPROXY_PORT=8888
+      - LOCAL_NETWORK=10.10.0.0/16
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - '/mnt/ssd2/media/torrents:/data'
+      - '/home/sam/docker/qbittorrent:/config'
+    ports:
+      - '8081:8080'
+    networks:
+      - openvpn
+      - backend
+    cap_add:
+      - NET_ADMIN
+    logging:
+      driver: "gelf"
+      
+networks:
+  openvpn:
+    external: true
+  backend:
+    external: true
