@@ -10,7 +10,7 @@ services:
       - TZ=Europe/London
     volumes:
       - /home/sam/docker/nextcloud/config:/config
-      - /mnt/ssd2/files:/data
+      - /mnt/ssd1/files:/data
     ports:
       - 443:443
     networks:
