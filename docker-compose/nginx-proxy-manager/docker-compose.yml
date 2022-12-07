@@ -1,0 +1,51 @@
+version: "3"
+services:
+  nginx-proxy-manager:
+    container_name: nginx-proxy-manager
+    image: 'jc21/nginx-proxy-manager:latest'
+    environment:
+      DB_MYSQL_HOST: "mariadb"
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: "npm"
+      DB_MYSQL_PASSWORD: "PASSWORD"
+      DB_MYSQL_NAME: "nginx_proxy_manager"
+    volumes:
+      - /home/sam/docker/nginx-proxy-manager/data:/data
+      - /home/sam/docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+    ports:
+      - '80:80'
+      - '443:443'
+      - '81:81'
+    networks:
+      - frontend
+    restart: unless-stopped
+    depends_on:
+      - mariadb
+    logging:
+      driver: "gelf"
+
+
+  mariadb:
+    container_name: mariadb
+    image: 'linuxserver/mariadb:latest'
+    environment:
+      PUID: '1000'
+      PGID: '1000'
+      TZ: 'Europe/London'
+      MYSQL_ROOT_PASSWORD: 'PASSWORD'
+      MYSQL_USER: 'USER'
+      MYSQL_PASSWORD: 'PASSWORD'
+    volumes:
+      - /home/sam/docker/mariadb/mysql:/var/lib/mysql
+      - /home/sam/docker/mariadb/config:/config
+    ports:
+      - 3306:3306
+    networks:
+      - frontend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+    
+networks:
+  frontend:
+    external: true
