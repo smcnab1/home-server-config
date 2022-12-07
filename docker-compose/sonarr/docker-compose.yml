@@ -1,0 +1,25 @@
+---
+version: "2.1"
+services:
+  sonarr:
+    container_name: sonarr
+    image: lscr.io/linuxserver/sonarr:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /home/sam/docker/sonarr:/config
+      - /mnt/ssd2/media/media/tv:/tv
+      - /mnt/ssd2/media/torrents/tv:/downloads
+    ports:
+      - 8989:8989
+    networks:
+      - backend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+      
+networks:
+  backend:
+    external: true
