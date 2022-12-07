@@ -1,0 +1,31 @@
+---
+version: "2.1"
+services:
+  jellyfin:
+    container_name: jellyfin
+    image: lscr.io/linuxserver/jellyfin:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - JELLYFIN_PublishedServerUrl=jelly.sammcnab.co.uk
+    volumes:
+      - /home/sam/docker/jellyfin:/config
+      - /mnt/ssd2/media/media/tv:/data/tvshows
+      - /mnt/ssd2/media/media/movies:/data/movies
+    ports:
+      - 8096:8096
+      - 7359:7359/udp
+      - 1900:1900/udp
+    networks:
+      - frontend
+      - backend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+      
+networks:
+  frontend:
+    external: true
+  backend:
+    external: true
