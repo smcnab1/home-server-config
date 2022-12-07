@@ -11,7 +11,7 @@ services:
     volumes:
       - /home/sam/docker/sonarr:/config
       - /mnt/ssd2/media/media/tv:/tv
-      - /mnt/ssd2/media/torrents/tv:/downloads
+      - /mnt/ssd2/media/torrents:/downloads
     ports:
       - 8989:8989
     networks:
