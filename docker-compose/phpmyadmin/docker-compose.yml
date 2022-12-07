@@ -1,0 +1,25 @@
+---
+version: "2"
+services:
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=mariadb,10.10.10.3
+      - PMA_PORT=3306
+    ports:
+      - 8080:80
+    networks:
+      - backend
+      - frontend
+    restart: always
+    logging:
+      driver: "gelf"
+      
+networks:
+  frontend:
+    external: true
+  backend:
+    external: true
+    
