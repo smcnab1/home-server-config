@@ -1,0 +1,26 @@
+version: "3"
+services:
+  mariadb:
+    container_name: mariadb
+    image: 'linuxserver/mariadb:latest'
+    environment:
+      PUID: '1000'
+      PGID: '1000'
+      TZ: 'Europe/London'
+      MYSQL_ROOT_PASSWORD: 'password'
+      MYSQL_USER: 'username'
+      MYSQL_PASSWORD: 'password'
+    volumes:
+      - /home/sam/docker/mariadb/mysql:/var/lib/mysql
+      - /home/sam/docker/mariadb/config:/config
+    ports:
+      - 3306:3306
+    networks:
+      - frontend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+      
+networks:
+  backend:
+    external: true
