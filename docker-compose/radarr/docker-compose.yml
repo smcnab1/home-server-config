@@ -11,7 +11,7 @@ services:
     volumes:
       - /home/sam/docker/radarr:/config
       - /mnt/ssd2/media/media/movies:/movies
-      - /mnt/ssd2/media/torrents/movies:/downloads
+      - /mnt/ssd2/media/torrents:/downloads
     networks:
       - backend
     ports:
