@@ -34,18 +34,7 @@ This repo will be updated regularly and I am keen to make it an open & learning 
 ## Contents
 
 <div align="center">
-<a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+High%2C+Type%3A+Bug&template=bug_report.md&title=%5BBUG%5D">
-
-**Report Bug**
-</a>
-**·**
-<a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">
-**Request Feature**
-</a>
-**·**
-<a href="https://github.com/smcnab1/oop-exclamation-mark/issues/new?assignees=smcnab1&labels=&template=to-do-list.md&title=%5BTDL%5D">
-**ToDo List**
-</a>
+<a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=%F0%9F%90%9BType%3A+Bug&template=1-bug-report.md&title=%5BBUG%5D+"><b>Report Bug</a> · <a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">Request Feature</a> · <a href="https://github.com/smcnab1/oop-exclamation-mark/issues/new?assignees=smcnab1&labels=&template=to-do-list.md&title=%5BTDL%5D">ToDo List</a>
 
 </div> 
 
