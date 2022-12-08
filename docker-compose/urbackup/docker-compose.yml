@@ -1,0 +1,16 @@
+version: '2'
+services:
+  urbackup:
+    container_name: urbackup
+    image: uroni/urbackup-server:latest
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/London # Enter your timezone
+    volumes:
+      - /home/sam/docker/urbackup:/var/urbackup
+      - /mnt/backups:/backups
+    network_mode: "host"
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
