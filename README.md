@@ -11,7 +11,7 @@
 <!-- PROJECT HEADING -->
 <div align="center">
 <a href="https://github.com/smcnab1/op-exclamation-mark">
-<img src="https://i.imgur.com/iEBCFrA.png" alt="Logo" width="150" height="150"></a>
+<img src="https://i.imgur.com/PkyD6Ap.png" alt="Logo" width="150" height="150"></a>
 
 ## **Op Exclamation Mark**
 
