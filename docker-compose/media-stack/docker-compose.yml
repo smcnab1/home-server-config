@@ -101,10 +101,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - TRANSMISSION_WEB_HOME=combustion
     volumes:
       - '/mnt/media/torrents:/data'
-      - '/home/sam/docker/transmission-vpn:/config'
+      - '/home/sam/docker/transmission:/config'
     ports:
       - '9091:9091'
       - '51413:51413'
