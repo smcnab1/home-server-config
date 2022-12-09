@@ -6,8 +6,8 @@ services:
     environment:
       - OPENVPN_PROVIDER=PIA
       - OPENVPN_CONFIG=uk_london
-      - OPENVPN_USERNAME=p0628314
-      - OPENVPN_PASSWORD=Sam,McNab1.1
+      - OPENVPN_USERNAME=
+      - OPENVPN_PASSWORD=
       - OPENVPN_OPTS=--inactive 3600 --ping 10 --ping-exit 60
       - LOCAL_NETWORK=10.10.0.0/16
       - CREATE_TUN_DEVICE=true
