@@ -110,10 +110,7 @@ services:
       - '51413:51413'
       - '51413:51413/udp'
     networks:
-      - openvpn
       - backend
-    cap_add:
-      - NET_ADMIN
     restart: always
     logging:
       driver: "gelf"
@@ -122,6 +119,4 @@ networks:
   frontend:
     external: true
   backend: 
-    external: true
-  openvpn:
     external: true
