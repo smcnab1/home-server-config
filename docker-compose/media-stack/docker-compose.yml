@@ -1,0 +1,134 @@
+version: '3'
+services:
+  jellyfin:
+    container_name: jellyfin
+    image: linuxserver/jellyfin:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - JELLYFIN_PublishedServerUrl=jelly.sammcnab.co.uk
+    volumes:
+      - /home/sam/docker/jellyfin:/config
+      - /mnt/media/media/tv:/data/tvshows
+      - /mnt/media/media/movies:/data/movies
+    ports:
+      - 8096:8096
+      - 7359:7359/udp
+      - 1900:1900/udp
+    networks:
+      - frontend
+      - backend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+
+  jellyseerr:
+    container_name: jellyseerr
+    image: fallenbagel/jellyseerr:latest
+    environment:
+      - LOG_LEVEL=debug
+      - TZ=Europe/London
+    volumes:
+      - /home/sam/docker/jellyseerr:/app/config
+    ports:
+      - 5055:5055
+    networks:
+      - frontend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+
+  sonarr:
+    container_name: sonarr
+    image: linuxserver/sonarr:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /home/sam/docker/sonarr:/config
+      - /mnt/media/media/tv:/tv
+      - /mnt/media/torrents:/downloads
+    ports:
+      - 8989:8989
+    networks:
+      - backend
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+
+  radarr:
+    container_name: radarr
+    image: linuxserver/radarr:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /home/sam/docker/radarr:/config
+      - /mnt/media/media/movies:/movies
+      - /mnt/media/torrents:/downloads
+    networks:
+      - backend
+    ports:
+      - 7878:7878
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+
+  prowlarr:
+    container_name: prowlarr
+    image: linuxserver/prowlarr:0.4.9-develop
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /home/sam/docker/prowlarr:/config
+    networks:
+      - backend
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+    logging:
+      driver: "gelf"
+
+  transmission-openvpn:
+    container_name: transmission-openvpn
+    image: haugene/transmission-openvpn:latest
+    environment:
+      - OPENVPN_PROVIDER=PIA
+      - OPENVPN_CONFIG=uk_london
+      - OPENVPN_USERNAME=p0628314
+      - OPENVPN_PASSWORD=Sam,McNab1.1
+      - OPENVPN_OPTS=--inactive 3600 --ping 10 --ping-exit 60
+      - LOCAL_NETWORK=10.10.0.0/16
+      - CREATE_TUN_DEVICE=true
+      - TZ=Europe/London
+      - TRANSMISSION_WEB_UI=combustion
+      - WEBPROXY_ENABLED=true
+      - WEBPROXY_PORT=8888
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - '/mnt/media/torrents:/data'
+      - '/home/sam/docker/transmission-vpn:/config'
+    ports:
+      - '9091:9091'
+    networks:
+      - openvpn
+      - backend
+    cap_add:
+      - NET_ADMIN
+    restart: always
+    logging:
+      driver: "gelf"
+
+networks:
+  frontend:
+    external: true
+  backend: 
+    external: true
+  openvpn:
+    external: true
