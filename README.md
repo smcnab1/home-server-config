@@ -272,6 +272,10 @@ This is a list of all of my containers & machines within my setup. These also in
 <td><em>OS Application</em></td>
 </tr>
 <tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
 <td><strong>Portainer Agent</strong></td>
 <td><em>Docker Container</em></td>
 </tr>
@@ -304,6 +308,10 @@ This is a list of all of my containers & machines within my setup. These also in
 <td><strong>ElasticSearch</strong></td>
 <td><em>OS Application</em></td>
 </tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
 </tbody>
 </table>
 
@@ -319,6 +327,10 @@ This is a list of all of my containers & machines within my setup. These also in
 </tr>
 <tr>
 <td><strong>OpenVPN</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
 <td><em>OS Application</em></td>
 </tr>
 <tr>
@@ -359,6 +371,10 @@ This is a list of all of my containers & machines within my setup. These also in
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Ubuntu 20.04 | Docker 20.10</em></td>
 </tr>
 <tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
 <td><strong>Portainer Agent</strong></td>
 <td><em>Docker Container</em></td>
 </tr>
@@ -378,6 +394,11 @@ This is a list of all of my containers & machines within my setup. These also in
 <tbody>
 <tr>
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Ubuntu 20.04 | Docker 20.10</em></td>
+</tr>
+
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
 </tr>
 <tr>
 <td><strong>Portainer Agent</strong></td>
@@ -399,6 +420,10 @@ This is a list of all of my containers & machines within my setup. These also in
 <tbody>
 <tr>
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Debian 11 | Proxmox Backup Server 2.3-1</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
 </tr>
 <tr>
 <td><strong>Proxmox Backup Server</strong></td>
