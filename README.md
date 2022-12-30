@@ -272,10 +272,6 @@ This is a list of all of my containers & machines within my setup. These also in
 <td><em>OS Application</em></td>
 </tr>
 <tr>
-<td><strong>NetData</strong></td>
-<td><em>OS Application</em></td>
-</tr>
-<tr>
 <td><strong>Portainer Agent</strong></td>
 <td><em>Docker Container</em></td>
 </tr>
@@ -308,10 +304,6 @@ This is a list of all of my containers & machines within my setup. These also in
 <td><strong>ElasticSearch</strong></td>
 <td><em>OS Application</em></td>
 </tr>
-<tr>
-<td><strong>NetData</strong></td>
-<td><em>OS Application</em></td>
-</tr>
 </tbody>
 </table>
 
@@ -327,10 +319,6 @@ This is a list of all of my containers & machines within my setup. These also in
 </tr>
 <tr>
 <td><strong>OpenVPN</strong></td>
-<td><em>OS Application</em></td>
-</tr>
-<tr>
-<td><strong>NetData</strong></td>
 <td><em>OS Application</em></td>
 </tr>
 <tr>
@@ -371,10 +359,6 @@ This is a list of all of my containers & machines within my setup. These also in
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Ubuntu 20.04 | Docker 20.10</em></td>
 </tr>
 <tr>
-<td><strong>NetData</strong></td>
-<td><em>OS Application</em></td>
-</tr>
-<tr>
 <td><strong>Portainer Agent</strong></td>
 <td><em>Docker Container</em></td>
 </tr>
@@ -394,11 +378,6 @@ This is a list of all of my containers & machines within my setup. These also in
 <tbody>
 <tr>
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Ubuntu 20.04 | Docker 20.10</em></td>
-</tr>
-
-<tr>
-<td><strong>NetData</strong></td>
-<td><em>OS Application</em></td>
 </tr>
 <tr>
 <td><strong>Portainer Agent</strong></td>
@@ -422,10 +401,6 @@ This is a list of all of my containers & machines within my setup. These also in
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Debian 11 | Proxmox Backup Server 2.3-1</em></td>
 </tr>
 <tr>
-<td><strong>NetData</strong></td>
-<td><em>OS Application</em></td>
-</tr>
-<tr>
 <td><strong>Proxmox Backup Server</strong></td>
 <td><em>OS Application</em></td>
 </tr>
@@ -443,25 +418,206 @@ This section is currently a work in progress
 
 <!-- raspi-1-services -->
 <details><summary><b>RASPI-1 [Raspberry Pi 4B, 8GB RAM, 1TB SSD] <i>(as at Dec 22)</i></b></summary>
-This section is currently a work in progress
+<table>
+<thead>
+<tr>
+<th colspan="2">&nbsp;<strong>RASPI-1</strong>&nbsp;- 8GB RAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Raspbian Lite 64Bit OS | Docker 20.10</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Portainer Agent</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+</tbody>
+</table>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </details>
 
 <!-- raspi-2-services -->
 <details><summary><b>RASPI-2 [Raspberry Pi 4B, 4GB RAM, 1TB SSD] <i>(as at Dec 22)</i></b></summary>
-This section is currently a work in progress
+<table>
+<thead>
+<tr>
+<th colspan="2">&nbsp;<strong>RASPI-2</strong>&nbsp;- 4GB RAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Raspbian Lite 64Bit OS | Docker 20.10</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>PiHole (Slave)</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Gravity-Sync</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Portainer-CE</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>MariaDB</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>NetBox</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>Node-RED</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>NGINX Proxy Manager</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>phpMyAdmin</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+</tbody>
+</table>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </details>
 
 <!-- raspi-3-services -->
 <details><summary><b>RASPI-3 [Raspberry Pi 4B, 2GB RAM, 1TB SSD] <i>(as at Dec 22)</i></b></summary>
-This section is currently a work in progress
+<table>
+<thead>
+<tr>
+<th colspan="2">&nbsp;<strong>RASPI-2</strong>&nbsp;- 4GB RAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Raspbian Lite 64Bit OS | Docker 20.10</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Gravity-Sync</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Portainer Agent</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>Omada Controller</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>PiHole (Master)</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+</tbody>
+</table>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </details>
 
 <!-- synology-services -->
 <details><summary><b>SYN-NAS-01 [Synology DS218+ NAS Enclosure, 10GB RAM, 16TB Storage] <i>(as at Dec 22)</i></b></summary>
-This section is currently a work in progress
+<table>
+<thead>
+<tr>
+<th colspan="2">&nbsp;<strong>SYN-NAS-01</strong>&nbsp;- 10GB RAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Synology DMS | Docker 20.10</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Docker</strong></td>
+<td><em>OS Application</em></td>
+</tr>
+<tr>
+<td><strong>Jellyfin</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+<td><strong>PhotoPrism</strong></td>
+<td><em>Docker Container</em></td>
+</tr>
+<tr>
+</tbody>
+</table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</details>
+
+<!-- homeassistant-services -->
+<details><summary><b>ODR-HA-01 [ODROID N2+, 4GB RAM, 250GB Storage] <i>(as at Dec 22)</i> Full Details on <a href="https://github.com/smcnab1/op-question-mark">Op-Question-Mark Git</a></i></b></summary>
+<table>
+<thead>
+<tr>
+<th colspan="2">&nbsp;<strong>ODR-HA-01</strong>&nbsp;- 4GB RAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Home Assistant OS</em></td>
+</tr>
+<tr>
+<td><strong>NetData</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>ESPHome</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Frigate NVR</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Google Drive Backup</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Logspout</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Mosquitto Broker</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Studio Code Server</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Terminal & SSH</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+<td><strong>Zigbee2MQTT</strong></td>
+<td><em>Add-On</em></td>
+</tr>
+<tr>
+</tbody>
+</table>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </details>
 &nbsp;
