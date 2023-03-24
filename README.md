@@ -26,7 +26,7 @@
 
 ## About The Project
 
-This is my **first** time creating or using a NAS/Home Server. I began with a Raspberry Pi 4B and a **very** old HDD, playing with <a href="https://www.openmediavault.org/">Open Media Vault</a> but got bitten by the NAS bug and have created a full home server/lab for the house.
+This is my **first** time creating or using a Home Server. I began with a Raspberry Pi 4B and a **very** old HDD, playing with <a href="https://www.openmediavault.org/">Open Media Vault</a> but got bitten by the NAS bug and have created a full home server/lab for the house.
 
 This repo will be updated regularly and I am keen to make it an open & learning venture. Looking for feature suggestions and advice to increase the **wife-approval level**😎.
 
@@ -56,7 +56,7 @@ This repo will be updated regularly and I am keen to make it an open & learning 
 
 <a name="hardware"></a>
 
-## Hardware _(as at Sept 22)_
+## Hardware _(as at Mar 23)_
 
 This is a list of the hardware I **currently** use as part of my Home NAS setup. Any suggestions drop them as a <a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">feature request.</a>
 <br />
@@ -250,12 +250,12 @@ This is a list of the hardware I **currently** use as part of my Home NAS setup.
 
 <a name="container"></a>
 
-## Containers & Machines _(as at Dec 22)_
+## Containers & Machines _(as at Mar 23)_
 
 This is a list of all of my containers & machines within my setup. These also include the <a href="https://www.docker.com/">Docker</a> Containers I currently use.
 
 <!-- pve-01-services -->
-<details><summary><b>PVE-01 [Lenovo M73 Tiny, 16GB RAM, 1TB SSD, i7] <i>(as at Dec 22)</i></b></summary>
+<details><summary><b>PVE-01 [Lenovo M73 Tiny, 16GB RAM, 1TB SSD, i7] <i>(as at Mar 23)</i></b></summary>
 
 <table>
 <thead>
@@ -275,10 +275,6 @@ This is a list of all of my containers & machines within my setup. These also in
 <td><strong>Portainer Agent</strong></td>
 <td><em>Docker Container</em></td>
 </tr>
-<tr>
-<td><strong>Invoice Ninja</strong></td>
-<td><em>Docker Container</em></td>
-</tr>
 </tbody>
 </table>
 
@@ -293,15 +289,15 @@ This is a list of all of my containers & machines within my setup. These also in
 <td style="text-align: center; vertical-align: middle;" colspan="2"><em>&nbsp;&nbsp;Ubuntu 20.04</em></td>
 </tr>
 <tr>
-<td><strong>GrayLog</strong></td>
-<td><em>OS Application</em></td>
+<td><strong>Grafana</strong></td>
+<td><em>Docker Container</em></td>
 </tr>
 <tr>
-<td><strong>MongoDB</strong></td>
-<td><em>OS Application</em></td>
+<td><strong>UptimeKuma</strong></td>
+<td><em>Docker Container</em></td>
 </tr>
 <tr>
-<td><strong>ElasticSearch</strong></td>
+<td><strong>Loki</strong></td>
 <td><em>OS Application</em></td>
 </tr>
 </tbody>
