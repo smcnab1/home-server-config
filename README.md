@@ -35,7 +35,7 @@ This is my **first** time creating or using a Home Server. I began with a Raspbe
 
 ## Hardware _(as at Mar 23)_
 
-This is a list of the hardware I **currently** use as part of my Home NAS setup. Any suggestions drop them as a <a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">feature request.</a>
+This is a list of the hardware I **currently** use as part of my Home NAS setup. Any suggestions drop them as a <a href="https://github.com/smcnab1/home-server-config/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D">feature request.</a>
 <br />
 
 <!-- start-table -->
@@ -634,19 +634,19 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/smcnab1/op-exclamation-mark.svg?style=for-the-badge
-[contributors-url]: https://github.com/smcnab1/op-exclamation-mark/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/smcnab1/op-exclamation-mark.svg?style=for-the-badge
-[forks-url]: https://github.com/smcnab1/op-exclamation-mark/network/members
-[stars-shield]: https://img.shields.io/github/stars/smcnab1/op-exclamation-mark.svg?style=for-the-badge
-[stars-url]: https://github.com/smcnab1/op-exclamation-mark/stargazers
-[issues-shield]: https://img.shields.io/github/issues/smcnab1/op-exclamation-mark.svg?style=for-the-badge
-[issues-url]: https://github.com/smcnab1/op-exclamation-mark/issues
-[license-shield]: https://img.shields.io/github/license/smcnab1/op-exclamation-mark.svg?style=for-the-badge
-[license-url]: https://github.com/smcnab1/op-exclamation-mark/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/smcnab1/home-server-config.svg?style=for-the-badge
+[contributors-url]: https://github.com/smcnab1/home-server-config/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/smcnab1/home-server-config.svg?style=for-the-badge
+[forks-url]: https://github.com/smcnab1/home-server-config/network/members
+[stars-shield]: https://img.shields.io/github/stars/smcnab1/home-server-config.svg?style=for-the-badge
+[stars-url]: https://github.com/smcnab1/home-server-config/stargazers
+[issues-shield]: https://img.shields.io/github/issues/smcnab1/home-server-config.svg?style=for-the-badge
+[issues-url]: https://github.com/smcnab1/home-server-config/issues
+[license-shield]: https://img.shields.io/github/license/smcnab1/home-server-config.svg?style=for-the-badge
+[license-url]: https://github.com/smcnab1/home-server-config/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sammcnab/
-[email-badge]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[email-badge]: https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [email-url]: mailto:shacodinggit@gmail.com
 [git-badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [git-url]: https://github.com/smcnab1
