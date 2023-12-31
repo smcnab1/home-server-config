@@ -1,4 +1,3 @@
-
 <!-- TOP ROW OF BADGES -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -10,34 +9,12 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT HEADING -->
-<div align="center">
-<a href="https://github.com/smcnab1/home-server-config">
-<img src="https://i.imgur.com/PkyD6Ap.png" alt="Logo" width="150" height="150"></a>
 
-## **Home Server Config**
-
-#### Be sure to ⭐ my configuration repo so you can keep up to date on any daily progress!
-
-</div>
-
----
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
+# Home Server Config
 
 This is my **first** time creating or using a Home Server. I began with a Raspberry Pi 4B and a **very** old HDD, playing with <a href="https://www.openmediavault.org/">Open Media Vault</a> but got bitten by the NAS bug and have created a full home server/lab for the house.
 
-This repo will be updated regularly and I am keen to make it an open & learning venture. Looking for feature suggestions and advice to increase the **wife-approval level**😎.
-
 <!-- CONTENTS -->
-
-## Contents
-
-<div align="center">
-<a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=%F0%9F%90%9BType%3A+Bug&template=1-bug-report.md&title=%5BBUG%5D+"><b>Report Bug</a> · <a href="https://github.com/smcnab1/op-exclamation-mark/issues/new?assignees=smcnab1&labels=Priority%3A+Low%2C+Type%3A+Feature&template=feature_request.md&title=%5BFR%5D"><b>Request Feature</a> · <a href="https://github.com/smcnab1/oop-exclamation-mark/issues/new?assignees=smcnab1&labels=&template=to-do-list.md&title=%5BTDL%5D"><b>ToDo List</a>
-
-</div> 
 
 <div align="center">
 <a href="#hardware">Hardware</a>
@@ -618,11 +595,13 @@ This section is currently a work in progress
 </details>
 &nbsp;
 
+## Back Matter
+
 <!-- CONTRIBUTING -->
 
 <a name="contributing"></a>
 
-## Contributing
+### Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -635,19 +614,16 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+### License
 
-<!-- LICENSE -->
-
-<a name="license"></a>
-
-## License
-
-Distributed under the MIT License. See <a href="https://github.com/smcnab1/op-exclamation-mark/blob/master/LICENSE.md">`LICENSE.md`</a> for more information.
+This project is licensed under the [MIT License](LICENSE.md).
 
 <!-- CONTACT -->
+
 <a name="contact"></a>
 
-## Contact
+### Contact
+
 [![Email][email-badge]][email-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][git-badge]][git-url]
