@@ -11,10 +11,10 @@
 
 <!-- PROJECT HEADING -->
 <div align="center">
-<a href="https://github.com/smcnab1/op-exclamation-mark">
+<a href="https://github.com/smcnab1/home-server-config">
 <img src="https://i.imgur.com/PkyD6Ap.png" alt="Logo" width="150" height="150"></a>
 
-## **Op Exclamation Mark**
+## **Home Server Config**
 
 #### Be sure to ⭐ my configuration repo so you can keep up to date on any daily progress!
 
@@ -564,7 +564,7 @@ This section is currently a work in progress
 </details>
 
 <!-- homeassistant-services -->
-<details><summary><b>ODR-HA-01 [ODROID N2+, 4GB RAM, 250GB Storage] <i>(as at Dec 22)</i> Full Details on <a href="https://github.com/smcnab1/op-question-mark">Op-Question-Mark Git</a></i></b></summary>
+<details><summary><b>ODR-HA-01 [ODROID N2+, 4GB RAM, 250GB Storage] <i>(as at Dec 22)</i> Full Details on <a href="https://github.com/smcnab1/home-server-config">Home-Server-Config Git</a></i></b></summary>
 <table>
 <thead>
 <tr>
