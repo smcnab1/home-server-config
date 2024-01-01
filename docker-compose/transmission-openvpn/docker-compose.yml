@@ -18,8 +18,8 @@ services:
       - PUID=1000
       - PGID=1000
     volumes:
-      - '/mnt/ssd2/media/torrents:/data'
-      - '/home/sam/docker/transmission-vpn:/config'
+      - /volume1/MEDIA/torrents:/data
+      - /volume1/DOCKER/transmission-vpn:/config
     ports:
       - '9091:9091'
     networks:
@@ -28,8 +28,6 @@ services:
     cap_add:
       - NET_ADMIN
     restart: always
-    logging:
-      driver: "gelf"
       
 networks:
   openvpn:

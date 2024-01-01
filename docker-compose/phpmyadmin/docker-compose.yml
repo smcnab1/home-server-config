@@ -14,8 +14,6 @@ services:
       - backend
       - frontend
     restart: always
-    logging:
-      driver: "gelf"
       
 networks:
   frontend:

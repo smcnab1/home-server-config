@@ -3,23 +3,17 @@ version: "2.1"
 services:
   radarr:
     container_name: radarr
-    image: lscr.io/linuxserver/radarr:latest
+    image: linuxserver/radarr:latest
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - /home/sam/docker/radarr:/config
-      - /mnt/ssd2/media/media/movies:/movies
-      - /mnt/ssd2/media/torrents:/downloads
+      - /volume1/DOCKER/radarr:/config
+      - /volume1/MEDIA/media/movies:/movies
+      - /volume1/MEDIA/torrents:/downloads
     networks:
       - backend
     ports:
       - 7878:7878
     restart: unless-stopped
-    logging:
-      driver: "gelf"
-      
-networks:
-  backend:
-    external: true

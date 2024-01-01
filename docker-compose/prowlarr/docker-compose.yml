@@ -3,21 +3,13 @@ version: "2.1"
 services:
   prowlarr:
     container_name: prowlarr
-    image: lscr.io/linuxserver/prowlarr:develop
+    image: linuxserver/prowlarr:latest
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - /home/sam/docker/prowlarr:/config
-    networks:
-      - backend
+      - /volume1/DOCKER/prowlarr:/config
     ports:
       - 9696:9696
     restart: unless-stopped
-    logging:
-      driver: "gelf"
-      
-networks:
-  backend:
-    external: true
