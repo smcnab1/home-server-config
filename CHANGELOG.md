@@ -14,13 +14,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Changed
 - ...
 
-<!-- ## [project-template-repo 1.1.0](https://github.com/smcnab1/project-template-repo/releases/tag/project-template-repo-1.1.0) - 2023-12-03
+## [home-server-config-1.0](https://github.com/smcnab1/home-server-config/releases/tag/home-server-config-1.0) - 2024-01-01
 
 ### Added
-- 🔔 Notification System
-- 🐞 Support, Bug & Suggestion Reporting from Application
+- 🌱 Initial Commit
 
 ### Changed
-- 🎉 Full Release to students across the Organisation
-- 🛠️ Fixed labelling
-- 🛠️ Optimised document viewing and system access
+- 🌱 Initial Commit
