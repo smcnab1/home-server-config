@@ -20,3 +20,5 @@ ignore.*
 .env.test
 *.pem
 
+
+DS_STORE
