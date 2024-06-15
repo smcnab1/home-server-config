@@ -10,24 +10,55 @@
 
 <!-- PROJECT HEADING -->
 
-# Home Server Config
+<a name="readme-top"></a>
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/smcnab1/home-server-config">
+    <img src="docs/my-avatar.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">Home Server Config</h3>
+
+  <p align="center">
+    Streamline your home server setup effortlessly. Elevate your digital experience with ease. 🖥️✨
+    <br />
+    <a href="https://smcnab1.github.io/home-server-config/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/smcnab1/home-server-config">View Demo</a>
+    ·
+    <a href="https://github.com/smcnab1/home-server-config/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/smcnab1/home-server-config/issues">Request Feature</a>
+  </p>
+</div>
+
+<details>
+  <summary>View Contents</summary>
+
+_Last Updated June 2024_
+<!-- toc -->
+
+- [About The Project](#about-the-project)
+  - [Hardware](#hardware)
+  - [Container](#container)
+- [Back Matter](#back-matter)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+<!-- tocstop -->
+  
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+  
 This is my **first** time creating or using a Home Server. I began with a Raspberry Pi 4B and a **very** old HDD, playing with <a href="https://www.openmediavault.org/">Open Media Vault</a> but got bitten by the NAS bug and have created a full home server/lab for the house.
 
-<!-- CONTENTS -->
-
-<div align="center">
-<a href="#hardware">Hardware</a>
-|
-<a href="#container">Containers & Machines</a>
-|
-<a href="#contributing">Contributing</a>
-|
-<a href="#license">License</a>
-|
-<a href="#contact">Contact</a>
-</div>
-&nbsp;
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- HARDWARE -->
 
@@ -488,6 +519,15 @@ This is a list of all of my containers & machines within my setup. These also in
 
 ## Back Matter
 
+<!-- ROADMAP -->
+### Roadmap
+
+- [ ] Finalise Documentation.
+
+See the [open issues](https://github.com/smcnab1/home-server-config/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 <a name="contributing"></a>
@@ -509,19 +549,8 @@ Don't forget to give the project a star! Thanks again!
 
 This project is licensed under the [MIT License](LICENSE.md).
 
-<!-- CONTACT -->
-
-<a name="contact"></a>
-
-### Contact
-
-[![Email][email-badge]][email-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![GitHub][git-badge]][git-url]
-[![Kofi][kofi-badge]][kofi-url]
-<br />
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -537,8 +566,9 @@ This project is licensed under the [MIT License](LICENSE.md).
 [license-url]: https://github.com/smcnab1/home-server-config/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sammcnab/
+[product-screenshot]: images/screenshot.png
 [email-badge]: https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
-[email-url]: mailto:shacodinggit@gmail.com
+[email-url]: mailto:sam@sammcnab.co.uk
 [git-badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [git-url]: https://github.com/smcnab1
 [kofi-badge]: https://ko-fi.com/img/githubbutton_sm.svg
